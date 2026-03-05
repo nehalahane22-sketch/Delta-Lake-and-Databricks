@@ -16,47 +16,57 @@ The repository includes practical implementations of the following concepts:
 Data Warehouse vs Data Lake vs Delta Lake 
 Lakehouse Architecture 
 Benefits of Delta Lake 
+
 2️⃣ Delta Lake Architecture
 Transaction log 
 ACID transactions 
 Data versioning 
 Time travel 
 Metadata management 
+
 3️⃣ Delta Lake Tables
 Creating Delta tables 
 Converting Parquet to Delta 
 Managing Delta table structure 
+
 4️⃣ Delta Log
 Understanding _delta_log 
 JSON and checkpoint files 
 Transaction tracking 
+
 5️⃣ Schema Evolution
 Updating schema automatically 
 Adding new columns 
 Handling schema changes in Delta tables 
+
 6️⃣ DML Operations & Merge
 Insert 
 Update 
 Delete 
 Merge (Upsert operations) 
 Deletion vectors 
+
 7️⃣ Delta Log Level Schema Changes
 Schema enforcement 
 Schema metadata changes 
 Table version tracking 
+
 8️⃣ Table Utility Commands
 DESCRIBE HISTORY 
 VACUUM 
 OPTIMIZE 
 RESTORE 
 Time Travel queries 
+
 9️⃣ Change Data Feed (CDF)
 Tracking incremental data changes 
 Streaming change capture 
 CDC use cases 
+
 🔟 UniForm in Delta Lake
 Interoperability with other table formats 
 Cross-engine compatibility 
+
 1️⃣1️⃣ Delta Lake Optimization
 File compaction 
 Performance optimization 
